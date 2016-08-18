@@ -1,6 +1,6 @@
 # ionic2-autosize
 
-***ionic2-autosize*** is an Angular2 directive that automatically adjusts textarea height to fit content.
+***ionic2-autosize*** is an Ionic2 / Angular2 directive that automatically adjusts textarea height to fit content.
 
 It adjusts the textarea height automatically to any text input, or changes to the model bound to the textarea.
 
