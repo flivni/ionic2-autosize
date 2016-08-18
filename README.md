@@ -5,7 +5,7 @@
 It adjusts the textarea height automatically to any text input, or changes to the model bound to the textarea.
 
 ## Acknowledgements
-This code based on Steve Papa's [angluar2-autoresize solution](https://github.com/stevepapa/angular2-autoresize)
+This code based on Steve Papa's [angular2-autosize solution](https://github.com/stevepapa/angular2-autosize)
 
 ## Installation:
 
