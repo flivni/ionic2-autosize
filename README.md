@@ -17,7 +17,7 @@ npm install ionic2-autosize
 
 ```typescript
 import {Component} from '@angular/core';
-import {Autosize} from 'angular2-autosize';
+import {Autosize} from 'ionic2-autosize';
 
 @Component({
   template: `
@@ -30,7 +30,7 @@ import {Autosize} from 'angular2-autosize';
         And whether pigs have wings."
 
         "But wait a bit," the Oysters cried,
-        "Before we have our chat;
+        "Before we have our squall;
         For some of us are out of breath,
         And all of us are tall!"
         "No hurry!" said the Carpenter.
