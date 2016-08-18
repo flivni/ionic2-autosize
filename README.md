@@ -34,7 +34,7 @@ import {Autosize} from 'ionic2-autosize';
         For some of us are out of breath,
         And all of us are tall!"
         "No hurry!" said the Carpenter.
-        They thanked him much for that.
+        They thanked him much for all.
     </ion-textarea>
   `,
   directives: [Autosize]
