@@ -1,10 +1,10 @@
-import {ElementRef, HostListener, Directive} from '@angular/core';
+import {ElementRef, HostListener, Directive, OnInit} from '@angular/core';
 
 @Directive({
   selector: 'ion-textarea[autosize]'
 })
 
-export class Autosize {
+export class Autosize implements OnInit {
   @HostListener('input', ['$event.target'])
   onInput(textArea:HTMLTextAreaElement):void {
     this.adjust();
@@ -13,8 +13,8 @@ export class Autosize {
   constructor(public element:ElementRef) {
   }
 
-  ngAfterViewInit():void {
-    this.adjust();
+  ngOnInit():void {
+    setTimeout(() => this.adjust(), 0);
   }
 
   adjust():void {
