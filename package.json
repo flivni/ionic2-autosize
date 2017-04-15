@@ -6,7 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/flivni/ionic2-autosize.git"
   },
+  "main": "js/index.js",
+  "typings": "js/index",
   "scripts": {
+    "prepublish": "cd src && tsc"
   },
   "keywords": [
     "ng2",
@@ -22,7 +25,6 @@
     "Zeb Burke-Conte <zeb@zebburkeconte.com> (http://zebburkeconte.com)",
     "Felix Livni <flivni@gmail.com>"
   ],
-  "main": "ionic2-autosize.ts",
   "license": "MIT",
   "devDependencies": {
     "@angular/common": "2.0.0-rc.4",
@@ -34,6 +36,6 @@
     "@angular/platform-browser-dynamic": "2.0.0-rc.4",
     "rxjs": "5.0.0-beta.6",
     "zone.js": "0.6.12",
-    "typescript": "^1.7.3"
+    "typescript": "^2.2.0"
   }
 }
