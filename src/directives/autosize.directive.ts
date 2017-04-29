@@ -1,4 +1,4 @@
-import {ElementRef, HostListener, Directive, OnInit} from '@angular/core';
+import {ElementRef, HostListener, Directive, OnInit, Inject} from '@angular/core';
 
 @Directive({
   selector: 'ion-textarea[autosize]'
@@ -9,7 +9,7 @@ export class Autosize implements OnInit {
     this.adjust();
   }
 
-  constructor(public element:ElementRef) {
+  constructor(@Inject(ElementRef) public element:ElementRef) {
   }
 
   ngOnInit():void {

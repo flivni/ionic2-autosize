@@ -1,7 +1,2 @@
-import {Autosize} from './autosize.directive';
-
-export * from './autosize.directive';
-
-export default {
-  directives: [Autosize]
-}
+export * from './ionic2-autosize.module';
+export * from './directives/autosize.directive';
