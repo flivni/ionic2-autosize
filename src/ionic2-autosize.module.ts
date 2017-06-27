@@ -11,7 +11,6 @@ import {Autosize} from "./directives/autosize.directive";
     Autosize
   ],
   imports: [
-    BrowserModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
