@@ -13,7 +13,35 @@ This code based on Steve Papa's [angular2-autosize solution](https://github.com/
 npm install ionic2-autosize
 ```
 
-## Use Example:
+## Usage:
+
+In your `app.module.ts`, import `AutosizeModule`:
+
+```typescript
+import { NgModule } from '@angular/core';
+import { IonicApp, IonicModule } from 'ionic-angular';
+import { MyApp } from './app/app.component';
+import { AutosizeModule  } from 'ionic2-autosize';
+
+@NgModule({
+    declarations: [
+        MyApp
+    ],
+    imports: [
+        AutosizeModule,
+        IonicModule.forRoot(MyApp)
+    ],
+    bootstrap: [IonicApp],
+    entryComponents: [
+        MyApp
+    ]
+})
+export class AppModule {}
+```
+
+If you use page modules, import `AutosizeModule` to the page where you need it instead.
+
+In your component, add the `autosize` directive to an `ion-textarea`:
 
 ```typescript
 import {Component} from '@angular/core';
